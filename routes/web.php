@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+// 组长： 这是登录路由
+Route::resource('login','LoginController');
